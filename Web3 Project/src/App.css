@@ -1,0 +1,121 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+ webkit-box-direction: normal;
+
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 700px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  color: white
+}
+
+.bio {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  font-size:20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.waveButton {
+  background-color: #82a1d3;
+  cursor: pointer;
+  color: black;
+  margin-top: 16px;
+  padding: 8px;
+  border: 5;
+  border-radius: 5px;
+
+ 
+  
+}
+
+
+
+.waveInput {
+  cursor: pointer;
+  background-color: #82a1d3;
+  color: black;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  width: 500px;
+  margin-left: 40px
+  
+}
+
+#text {
+    padding: 1px;
+    color:white;
+    font-size:20px;
+}
+
+#text1 {
+    padding: 0px;
+    color: #FF8000;
+    font-size:20px;
+    margin-bottom: 0;
+}
+
+#text2 {
+    padding: 1px;
+    color:#FF8000;
+    font-size:20px;
+}
+
+.waves {
+  display: flex;
+  flex-direction: column;
+}
+
+.waves-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.waveObject {
+  margin-top: 15px;
+  background-color: #82a1d3;
+  padding: 10px 15px;
+  border-radius: 6px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: black;
+}
+
+.waveObject-from {
+  font-size: 12px;
+  text-align: center;
+}
+
+.waveObject-msg {
+  padding-top: 8px;
+  display: center;
+  font-size: 14px;
+  font-style: normal;
+  text-align: center
+}
+
+.waveObject-time {
+  font-size: 12px;
+  margin-left: auto;
+  color: rgb(110, 118, 125);
+}
